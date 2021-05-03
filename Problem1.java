@@ -2,6 +2,8 @@ Time Complexity: o(n)
 
 class Solution {
     public int[] find_target(int [] nums, int t){
+        
+        nums = [2,7,9,8];
         if(nums == null || nums.length == 0) return 0;
         t = 9;
 
